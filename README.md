@@ -39,6 +39,7 @@
 1. Download the JSON configuration: *[catppuccin.json](./assets/catppuccin.json)*.
 2. Open Windows Terminal and press Ctrl + , to open Settings.
 3. Click the 'Open JSON file' button in the bottom left and overwrite with the contents of this JSON.
+4. Save the settings file and go to Windows Terminal->Settings->Color schemes and choose your Catppuccin theme.
 
 ## 💝 Thanks to
 
