@@ -1,0 +1,209 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Catppucin Macchiato"
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{64e32902-e146-58f0-895d-fa635e10cfca}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{68f7b95e-5b76-5c18-8951-db5f278d3fbd}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{7b072493-0506-5383-9b88-8b7a68cfe9bb}",
+                "hidden": false,
+                "name": "OracleLinux_8_7",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#303446",
+            "black": "#303446",
+            "blue": "#8CAAEE",
+            "brightBlack": "#303446",
+            "brightBlue": "#85C1DC",
+            "brightCyan": "#99D1DB",
+            "brightGreen": "#81C8BE",
+            "brightPurple": "#F4B8E4",
+            "brightRed": "#EA999C",
+            "brightWhite": "#C6D0F5",
+            "brightYellow": "#EF9F76",
+            "cursorColor": "#303446",
+            "cyan": "#85C1DC",
+            "foreground": "#C6D0F5",
+            "green": "#A6D189",
+            "name": "Catppuccin Frappe",
+            "purple": "#CA9EE6",
+            "red": "#E78284",
+            "selectionBackground": "#81C8BE",
+            "white": "#C6D0F5",
+            "yellow": "#E5C890"
+        },
+        {
+            "background": "#EFF1F5",
+            "black": "#EFF1F5",
+            "blue": "#1E66F5",
+            "brightBlack": "#EFF1F5",
+            "brightBlue": "#209FB5",
+            "brightCyan": "#04A5E5",
+            "brightGreen": "#179299",
+            "brightPurple": "#EA76CB",
+            "brightRed": "#E64553",
+            "brightWhite": "#4C4F69",
+            "brightYellow": "#FE640B",
+            "cursorColor": "#EFF1F5",
+            "cyan": "#209FB5",
+            "foreground": "#4C4F69",
+            "green": "#40A02B",
+            "name": "Catppuccin Latte",
+            "purple": "#8839EF",
+            "red": "#D20F39",
+            "selectionBackground": "#179299",
+            "white": "#4C4F69",
+            "yellow": "#DF8E1D"
+        },
+        {
+            "background": "#1E1E2E",
+            "black": "#1E1E2E",
+            "blue": "#89B4FA",
+            "brightBlack": "#1E1E2E",
+            "brightBlue": "#74C7EC",
+            "brightCyan": "#89DCEB",
+            "brightGreen": "#94E2D5",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#EBA0AC",
+            "brightWhite": "#CDD6F4",
+            "brightYellow": "#FAB387",
+            "cursorColor": "#1E1E2E",
+            "cyan": "#74C7EC",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#CBA6F7",
+            "red": "#F38BA8",
+            "selectionBackground": "#94E2D5",
+            "white": "#CDD6F4",
+            "yellow": "#F9E2AF"
+        },
+        {
+            "background": "#24273A",
+            "black": "#24273A",
+            "blue": "#8AADF4",
+            "brightBlack": "#24273A",
+            "brightBlue": "#7DC4E4",
+            "brightCyan": "#91D7E3",
+            "brightGreen": "#8BD5CA",
+            "brightPurple": "#F5BDE6",
+            "brightRed": "#EE99A0",
+            "brightWhite": "#CAD3F5",
+            "brightYellow": "#F5A97F",
+            "cursorColor": "#24273A",
+            "cyan": "#7DC4E4",
+            "foreground": "#CAD3F5",
+            "green": "#A6DA95",
+            "name": "Catppucin Macchiato",
+            "purple": "#C6A0F6",
+            "red": "#ED8796",
+            "selectionBackground": "#8BD5CA",
+            "white": "#CAD3F5",
+            "yellow": "#EED49F"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
